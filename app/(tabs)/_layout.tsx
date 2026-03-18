@@ -10,7 +10,7 @@ export default function TabLayout() {
     <NativeTabs>
       <NativeTabs.Trigger name="selectContact">
         <Label>Select Contact</Label>
-        <Icon sf="homepod" drawable="custom_android_drawable" />
+        <Icon src={require("../../assets/images/accountIcon.png")} />
       </NativeTabs.Trigger>
       <NativeTabs.Trigger name="sendMessage">
         <Icon src={require("../../assets/images/sendIcon.png")} />
